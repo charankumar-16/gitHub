@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.repos-container {
+  background-color: #f8f8ff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.avatar-img {
+  height: 100px;
+  width: 100px;
+}
+.repo-name {
+  color: #e73959;
+  font-size: 27px;
+}
+.repo-img {
+  margin-left: 20px;
+  align-self: flex-start;
+  display: flex;
+}
+
+.star-img {
+  height: 20px;
+  margin: auto;
+  width: 20px;
+  margin-right: 20px;
+}
+.start-count {
+  color: #1e293b;
+  font-size: 26px;
+}

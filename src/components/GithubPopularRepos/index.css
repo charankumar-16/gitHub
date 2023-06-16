@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-head {
+  font-family: 'lobster';
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+.language-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.display-repos {
+}
+
+.repos-bg-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrong-text {
+  color: #1e293b;
+  font-family: 'lobster';
+  font-size: 100px;
+}
+.fail-img {
+  width: 80%;
+}
